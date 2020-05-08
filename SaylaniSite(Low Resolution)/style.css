@@ -1,0 +1,245 @@
+@font-face{
+    font-family: "Merriweather";
+    src: url("Merriweather-Regular.ttf");   
+}
+@font-face{
+    font-family: OpenSans;
+    src: url("OpenSans-Regular.ttf");
+}
+*{
+    margin: 0;
+}
+.TopBar{
+    background-color: rgb(0, 96, 223);
+    padding: 15px 15px;
+
+}
+.Social{
+    margin: 0 80px 0 110px;
+    color: white;
+    display: inline-block;
+}
+i{
+    padding: 0 5px;
+    cursor: pointer;
+}
+.Social i{
+    font-size: 15px;
+}
+.text{
+    display: inline-block;
+    color: white;
+    font-family: OpenSans;
+}
+.button{
+    display: inline-block;
+    margin: 0 0 0 80px;
+}
+.button button{
+    color: darkolivegreen;
+    background-color: whitesmoke;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-family: OpenSans;
+}
+.SecondBar{
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+    padding: 0 0 7px 0;
+    z-index: 1;
+}
+.image{
+    margin: 10px 0 0 110px;
+    display: inline-block;
+}
+.image img{
+    width: 150px;
+}
+.nav{
+    display: inline-block;
+    margin: 0 0 0 345px;
+} 
+.nav td{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: OpenSans;
+}
+.td1{
+    color: white;
+    background-color: rgb(0, 96, 223);
+}
+.nav td:hover{
+    background-color: rgb(0, 96, 223);
+    color: white;
+}
+.slider img{
+    width: 100%;
+    height: 473px;
+    cursor: pointer;
+}
+.mrq{
+    width: 73%;
+    height: 25px;
+    background-color: rgb(0, 96, 223);
+    padding: 5px 0 0 0;
+    margin: 8px 0 0 208px;
+    color: white;
+    font-family: OpenSans;
+}
+h1{
+    text-align: center;
+    margin: 60px 0 0 0;
+    font-family: Merriweather;
+}
+.favi{
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+.favi img{
+    width: 40px;
+}
+.para{
+    margin: 30px 0 0 0;
+    width: 1070px;
+    text-align: justify;
+    color: gray;
+    font-family: OpenSans;
+}
+.figure img{
+    width: 40px;
+}
+.figure div{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+.figure{
+    text-align: center;
+    background-color: rgb(24, 65, 199);
+    margin: 100px 0 0 0;
+    padding: 50px;
+}
+.num{
+    font-size: 40px;
+    font-family: Merriweather;
+}
+.word{
+    font-family: Merriweather;
+    font-weight: bold;
+    padding: 10px 0 0 0;
+}
+.FirstRow img{
+    width: 50px;
+    cursor: pointer;
+}
+.FirstRow div{
+    display: inline-block;
+    color: rgb(0, 96, 223);
+    background-color: white;
+    padding: 40px 110px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px gray;
+    width: 140px;
+}
+.SecondRow img{
+    width: 50px;
+    cursor: pointer;
+}
+.SecondRow div{
+    display: inline-block;
+    color: rgb(0, 96, 223);
+    background-color: white;
+    padding: 40px 110px;
+    margin: 30px 10px 0 10px;
+    box-shadow: 0 0 10px gray;
+    width: 140px;
+}
+.label{
+    font-family: Merriweather;
+    font-weight: bold;
+    padding: 15px 0 0 0;
+}
+.buttons{
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+.color{
+    background-color: whitesmoke;
+    padding: 0 0 70px 0;
+}
+.headlines{
+    margin: 60px 0 0 0; 
+}
+.head{
+    display: inline-block;
+    margin: 0 0 0 70px;
+    font-family: Merriweather;
+    color: rgb(0, 96, 223);
+}
+.head2{
+    display: inline-block;
+    margin: 0 0 0 330px;
+    font-family: Merriweather;
+    color: rgb(0, 96, 223);
+}
+.pdf{
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 20px 70px 20px 10px;
+    margin: 0 0 0 0;
+    width: 250px;
+}
+.pdf img{
+    cursor: pointer;
+}
+.pds{
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 20px 70px 20px 10px;
+    margin: 15px 0 0 0;
+    width: 250px;
+} 
+.pds img{
+    cursor: pointer;
+}
+marquee{
+    font-family: OpenSans;
+    color: gray;
+    display: inline-block;
+    width: 385px;
+    height: 144px;
+}
+.marq{
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+.gal{
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+.ImgGal{
+    display: inline-block;
+    width: 200px;
+    cursor: pointer;
+}
+.bottom{
+    margin: 250px 0 0 0;
+    background-color: rgb(46, 46, 46);
+    padding: 50px 0;
+}
+.tbl{
+    font-family: OpenSans;
+    color: white;
+}
+.TopButton{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    width: 40px;
+}

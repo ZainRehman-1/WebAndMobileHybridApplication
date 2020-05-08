@@ -1,0 +1,17 @@
+*{
+    background-color: lightblue;
+}
+h1{
+    color: aqua;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 50px;
+}
+ol{
+    font-size: 40px;
+}
+
