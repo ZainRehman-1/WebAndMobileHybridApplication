@@ -1,0 +1,110 @@
+@font-face{
+    font-family: "Source_Serif_Pro";
+    src: url("SourceSerifPro-Bold.ttf");   
+}
+@font-face{
+    font-family: "Merriweather_Sans";
+    src: url("MerriweatherSans-Regular.ttf");
+}
+@font-face{
+    font-family: "Roboto";
+    src: url("Roboto-Bold.ttf");
+}
+body{
+    background-color: rgba(114, 107, 107, 0.507);
+}
+
+.navbar-brand img{
+    width: 170px;
+}
+.navbar{
+    background-color: whitesmoke !important;
+    padding: 10px;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1 !important;
+}
+.nav-link{
+    font-size: 20px;
+    font-family: Roboto;
+}
+.dropdown-item{
+    font-family: Roboto;
+}
+.brands-name{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.brands-name img{
+    width: 200px;
+}
+h3{
+    font-family: Source_Serif_Pro;
+    color: black;
+}
+.marq{
+    margin-top: 20px;
+    margin-left: 240px;
+}
+marquee{
+    font-family: Merriweather_Sans;
+    color: white;
+    width: 1000px;
+    height: 350px;
+    text-align: justify;
+    font-size: 20px;
+}
+.catagory{
+    margin-top: 100px;
+    font-family: Source_Serif_Pro;
+    color: black;
+    margin-left: 20px;
+}
+.catagories{
+    margin-top: 45px;
+    text-align: center;
+}
+.catagories h3{
+    font-family: Source_Serif_Pro;
+    color: black;
+}
+.firstRow{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.secondRow{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.thirdRow{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.slider{
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 0 15px black;
+    width: 500px;
+    margin-top: 5px;
+    z-index: 0;
+    height: auto;
+}
+.slider img{
+    width: 500px !important;
+    height: 300px !important;
+}
+.bottom{
+    margin: 200px 0 0 0;
+    background-color: rgb(59, 59, 59);
+    padding: 100px 0;
+    color: white;
+}
+
+
+
+

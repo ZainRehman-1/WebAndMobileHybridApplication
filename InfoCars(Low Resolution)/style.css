@@ -1,0 +1,123 @@
+@font-face{
+    font-family: "Source_Serif_Pro";
+    src: url("SourceSerifPro-Bold.ttf");   
+}
+@font-face{
+    font-family: "Merriweather_Sans";
+    src: url("MerriweatherSans-Light.ttf");
+}
+@font-face{
+    font-family: "Roboto";
+    src: url("Roboto-Light.ttf");
+}
+*{
+    font-family: Roboto;
+}
+.center{
+    text-align: center;
+}
+.center img{
+    width: 300px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+body{
+    background-color: rgba(114, 107, 107, 0.507);
+}
+form{
+    color: whitesmoke;
+    width: 800px;
+    margin: 10px auto;
+}
+h2{
+    border: none;
+    width: 15%;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 35px;
+    font-family: Source_Serif_Pro;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+select{
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pi{
+    text-align: left;
+}
+.ri{
+    text-align: left;
+}
+.bot{
+    text-align: center;
+}
+label{
+    display: inline-block;
+    color: black;
+    width: 135px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Merriweather_Sans;
+}
+textarea{
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+textarea:focus{
+    border-color: black;
+}
+fieldset{
+    border-radius: 15px;
+    border: 3px solid black;
+    margin: 5px;
+    height: 400px;
+}
+legend{
+    padding: 10px;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Source_Serif_Pro;
+    color: white
+}
+fieldset.lf{
+    height: 290px;
+}
+input.b{
+    font-size: 18px;
+    width: 81px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: Merriweather_Sans;
+}
+h1{
+    font-size: 80px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input:focus{
+    border-color: black;
+}
+select:focus{
+    border-color: black;
+}
+input.b:hover{
+    background-color: gray;
+    color: white;
+}
+input.b:focus{
+    border-color: black;
+}

@@ -1,0 +1,86 @@
+@font-face{
+    font-family: "Source_Serif_Pro";
+    src: url("SourceSerifPro-Bold.ttf");   
+}
+@font-face{
+    font-family: "Merriweather_Sans";
+    src: url("MerriweatherSans-Regular.ttf");
+}
+@font-face{
+    font-family: "Roboto";
+    src: url("Roboto-Bold.ttf");
+}
+body{
+    background-color: rgba(114, 107, 107, 0.507);
+}
+.navbar-brand img{
+    width: 170px;
+}
+.navbar{
+    background-color: whitesmoke !important;
+    padding: 10px;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1 !important;
+}
+.nav-link{
+    font-size: 20px;
+    font-family: Roboto;
+}
+.dropdown-item{
+    font-family: Roboto;
+}
+.name{
+    margin-top: 100px;
+    font-family: Roboto;
+    color: black;
+    text-align: center;
+}
+.car-pics-main{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.car-pics-main div{
+    background-color: white;
+    box-shadow: 0 0 15px black;
+    width: 550px;
+}
+.car-pics-main div img{
+    width: 540px;
+}
+.car-pics-sub{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.car-pics-sub div{
+    background-color: white;
+    padding: 3px;
+    box-shadow: 0 0 15px black;
+    width: 275px;
+}
+.car-pics-sub div img{
+    width: 269px;
+}
+.bottom{
+    margin: 200px 0 0 0;
+    background-color: rgb(59, 59, 59);
+    padding: 100px 0;
+    color: white;
+}
+.details{
+    margin-top: 100px;
+    font-family: Merriweather_Sans;
+    color: black;
+    margin-left: 20px;
+}
+.overview{
+    font-family: Merriweather_Sans;
+    color: white;
+    margin-left: 20px;
+    width: 1000px;
+    text-align: justify;
+    font-size: large;
+}
